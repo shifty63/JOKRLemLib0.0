@@ -152,7 +152,7 @@ void competition_initialize() {}
  * from where it left off.
  */
 void autonomous() {
-     int autonSelector = 1;  // Example selector value, can be determined by a GUI or switches
+     int autonSelector = 1;
 
     switch (autonSelector) {
         case 1:
@@ -165,7 +165,7 @@ void autonomous() {
             skillsAuton();
             break;
         default:
-            // Default auton routine
+         
             break;
     }
     
